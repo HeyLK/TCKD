@@ -8,6 +8,9 @@
 'use strict';
 $(function(){
 
+// 左侧菜单栏固定
+    menuFixed('.menu_box','no');
+
 // 用户地域统计
    $('.user_hometown_table').highcharts({
         chart: {

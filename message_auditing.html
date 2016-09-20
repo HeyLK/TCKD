@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>同城后台-申请审核</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/Search.png" />
+	<link rel="stylesheet" href="css/inc_style.css">
+	<link rel="stylesheet" href="css/message_auditing.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<nav class = "header">
+		<!-- logo区 -->
+		<div class="header_box">
+			<div class="logo">
+				<img src="" alt="">
+			</div>
+		<!-- 右侧 -->
+		<ul class="right user">
+			<li class="user_name">
+				<span class = "welcome">欢迎你,管理员</span>
+				<span name = "user_name" class = "name">admin
+				<ul class="dropdown_content">
+					<a href="">修改密码</a>
+					<a href="">退出</a>
+				</ul>
+				</span>
+			</li>
+		</ul>
+		<ul class="right search_ul"> 
+			<li>
+				<input type="text" class="search" placeholder = "订单查询"><button class="search_begin"><img src="img/Search.png" alt=""></button>
+			</li>
+		</ul>
+		</div>
+	</nav>
+	
+	<!-- 主干区 -->
+	<div class="main clearfix">
+		<!-- 左侧菜单栏 -->
+		<div class="left_menu">
+			<div class="menu_box">
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/yonghu.png) no-repeat;"></i>用户管理</dt>
+					<dd class = "here">申请审核</dd>
+					<a href=""><dd class = "menu_item">用户信息</dd></a>
+					<a href=""><dd class = "menu_item">用户管理</dd></a>
+					<a href=""><dd class = "menu_item">用户建议</dd></a>
+				</dl>
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/guanliyuan.png) no-repeat;"></i>管理员管理</dt>
+					<a href=""><dd class = "menu_item">创建管理员</dd></a>
+					<a href=""><dd class = "menu_item">修改权限</dd></a>
+				</dl>
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/xiaoxi.png) no-repeat;"></i>消息管理</dt>
+					<a href=""><dd class = "menu_item">系统公告</dd></a>
+					<a href=""><dd class = "menu_item">应用更新</dd></a>
+				</dl>
+				<dl></dl>
+			</div>
+		</div>
+
+		<!-- 主内容 -->
+		<div class="main_content" id="tabs">
+			<h2 class="main_content_title">申请审核</h2>
+			<ul class="title_option">
+				<li><a href="#fragment-3" class="select">未审批</a></li>
+				<li><a href="#fragment-2">已审批</a></li>
+				<li><a href="#fragment-1" class="show">审批详情</a></li>
+			</ul>
+			<div class="main_content_text" id="fragment-3">
+				<div class="unapproved_table_box ">
+					<table class="unapproved_table tablesorter" cellspacing = "0">
+					<thead>
+						<tr class="Title">
+							<th>照片</th>
+							<th>姓名</th>
+							<th class="canSort">性别<img src="img/sort.png" alt="" name = "0"></th>
+							<th class="canSort">手机号<img src="img/sort.png" alt="" name="0"></th>	
+							<th></th>		
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>温广</td>
+							<td>男</td>
+							<td>15768650703</td>
+							<td><button class="btn ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>张三</td>
+							<td>男</td>
+							<td>15768650702</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>温广</td>
+							<td>男</td>
+							<td>15768650701</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>李四</td>
+							<td>女</td>
+							<td>15768650704</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>王五</td>
+							<td>女</td>
+							<td>15768650706</td>
+							<td><button class="btn ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>陈六</td>
+							<td>男</td>
+							<td>15768650705</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>宋七</td>
+							<td>女</td>
+							<td>15768650708</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>谢八</td>
+							<td>男</td>
+							<td>15768650707</td>
+							<td><button class="ok">详细资料</button></td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="main_content_text" id="fragment-2">
+				<div class="approved_table_box">
+					<table class="approved_table" cellspacing = "0">
+					<thead>
+						<tr class="Title">
+							<th>照片</th>
+							<th>姓名</th>
+							<th class="canSort">性别<img src="img/sort.png" alt="" name = "0"></th>
+							<th class="canSort">手机号<img src="img/sort.png" alt="" name = "0"></th>	
+							<th class="canSort">审批结果<img src="img/sort.png" alt="" name = "0"></th>
+							<th></th>		
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>小红</td>
+							<td>女</td>
+							<td>15723050706</td>
+							<td>
+								<span class="ok">通过</span>
+							</td>
+							<td>
+								<button class="btn ok">详细资料</button>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>温广</td>
+							<td>男</td>
+							<td>15768650706</td>
+							<td>
+								<span class="ok">通过</span>
+							</td>
+							<td>
+								<button class="btn ok">详细资料</button>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>李四</td>
+							<td>男</td>
+							<td>15768653306</td>
+							<td>
+								<span class="error">不通过</span>
+							</td>
+							<td>
+								<button class="btn ok">详细资料</button>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="img/test.png" alt=""></td>
+							<td>张三</td>
+							<td>女</td>
+							<td>15768650722</td>
+							<td>
+								<span class="error">不通过</span>
+							</td>
+							<td>
+								<button class="btn ok">详细资料</button>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="main_content_text" id="fragment-1">
+				<div class="information_box">
+					<table class="information" cellspacing = "0">
+						<tr>
+							<th>姓名</th>
+							<td>温广</td>
+						</tr>
+						<tr>
+							<th>性别</th>
+							<td>男</td>
+						</tr>
+						<tr>
+							<th>手机号</th>
+							<td>15768650706</td>
+						</tr>
+						<tr>
+							<th>身份证号</th>
+							<td>14140809012237</td>
+						</tr>
+						<tr>
+							<th>身份证照</th>
+							<td>
+								<a href="#" title="查看大图" class="photo"><img src="img/test.png" alt=""></a>
+								<a href="#" title="查看大图" class="photo"><img src="img/test.png" alt=""></a>
+								<a href="#" title="查看大图" class="photo"><img src="img/test.png" alt=""></a>
+							</td>
+						</tr>
+						<tr>
+							<th>审批</th>
+							<td>
+								<button class="ok">同意</button>
+								<button class="error">拒绝</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 底部 -->
+	<div class="footer">
+		<span>©拓嵘科技 2016 </span>
+	</div>
+
+ <script src="js/jquery-2.1.1.js"></script>
+ <script src="js/jquery-ui.min.js"></script>
+ <script src="js/jquery.tablesorter.js"></script>
+ <script src="js/inc_action.js"></script>
+ <script src="js/message_auditing.js"></script>
+</body>
+</html>

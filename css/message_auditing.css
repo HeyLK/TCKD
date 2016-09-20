@@ -1,0 +1,153 @@
+.main_content{
+	width: 930px;
+	background-color: white;
+	float: left;
+	border:1px solid #AEB3A6;
+	padding-bottom: 60px;
+}
+
+.main_content_title{
+	display: block;
+	height: 70px;
+	font-size: 17px;
+	padding-left: 30px;
+	line-height: 90px;
+}
+
+ul.title_option{
+	display: block;
+}
+
+ul.title_option li{
+	display: inline-block;
+	outline:none;
+}
+
+ul.title_option a{
+	margin: 0;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 2px;
+	display:inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 3px solid white;	
+	outline:none;
+}
+
+ul.title_option>:first-child>:first-child{
+	padding-left: 30px;
+}
+
+ul.title_option a:hover{
+	border-bottom: 3px solid #B0B0B0;
+}
+
+.select{
+	border-bottom: 3px solid #44B549 !important; 
+}
+
+.main_content_text{
+	width: 100%;
+	border-top: 1px solid #AEB3A6;
+}
+
+.unapproved_table_box,.approved_table_box{
+	width: 90%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+.unapproved_table,.approved_table{
+	width: 100%;
+	font-size: 17px;
+	background-color: #fff;
+	text-align: center;
+	border-top: 1px solid #e7e7eb;
+	border-bottom: 1px solid #e7e7eb;
+	border-spacing: 0;
+}
+
+table tr th,table tr td{
+	border-top: 1px solid #e7e7eb;
+	border-bottom: 1px solid #e7e7eb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+table tr td img{
+	width: 40px;
+	height: 40px;
+}
+
+table tr td span{
+	font-size: 13px;
+	padding: 8px 15px;
+	border-style:none;
+	color: white; 
+}
+
+table tr td button{
+	padding: 10px 15px;
+	border-style:none;
+	color: white; 
+}
+
+
+table tr td button.ok:hover{
+	cursor: pointer;
+	background-color: #3F8F36;
+}
+
+table tr td button.error:hover{
+	cursor: pointer;
+	background-color: #C8053B;
+}
+
+.information_box{
+	width: 100%;
+	padding-top: 30px;
+}
+
+.information{
+	margin:0 auto;
+	width: 80%;
+	font-size: 17px;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #e7e7eb;
+	border-spacing: 0;
+}
+
+.information tr th{
+	border-right: 1px solid #e7e7eb;
+}
+
+.information tr td img{
+	border:1px solid #e7e7eb; 
+	width: 120px;
+	height: 120px;
+	margin:0 15px; 
+}
+
+table thead tr th{
+	outline-style: none;
+}
+
+table thead tr th img{
+	width: 10px;
+	height: 14px;
+	padding: 0 6px;
+}
+
+table thead tr th img:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+

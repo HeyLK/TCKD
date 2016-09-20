@@ -2,7 +2,81 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <title>同城管理--首页</title>
+        <link rel="stylesheet" href="css/inc_style.css">
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
+	<!-- 头部 -->
+	<nav class = "header">
+		<!-- logo区 -->
+		<div class="header_box">
+			<div class="logo">
+				<img src="" alt="">
+			</div>
+		<!-- 右侧 -->
+		<ul class="right user">
+			<li class="user_name">
+				<span class = "welcome">欢迎你,管理员</span>
+				<span name = "user_name" class = "name">admin
+				<ul class="dropdown_content">
+					<a href="">修改密码</a>
+					<a href="">退出</a>
+				</ul>
+				</span>
+			</li>
+		</ul>
+		<ul class="right search_ul"> 
+			<li>
+				<input type="text" class="search" placeholder = "订单查询"><button class="search_begin"><img src="img/Search.png" alt=""></button>
+			</li>
+		</ul>
+		</div>
+	</nav>
+
+	<!-- 主干区 -->
+	<div class="main clearfix">
+		<!-- 左侧菜单栏 -->
+		<div class="left_menu">
+			<div class="menu_box">
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/yonghu.png) no-repeat;"></i>用户管理</dt>
+					<a href=""><dd class = "menu_item">申请审核</dd></a>
+					<a href=""><dd class = "menu_item">用户信息</dd></a>
+					<a href=""><dd class = "menu_item">用户管理</dd></a>
+					<a href=""><dd class = "menu_item">用户建议</dd></a>
+				</dl>
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/guanliyuan.png) no-repeat;"></i>管理员管理</dt>
+					<a href=""><dd class = "menu_item">创建管理员</dd></a>
+					<a href=""><dd class = "menu_item">修改权限</dd></a>
+				</dl>
+				<dl>
+					<dt class = "menu_title"><i class = "icon_menu_title" style = "background:url(img/xiaoxi.png) no-repeat;"></i>消息管理</dt>
+					<a href=""><dd class = "menu_item">系统公告</dd></a>
+					<a href=""><dd class = "menu_item">应用更新</dd></a>
+				</dl>
+				<dl></dl>
+			</div>
+		</div>
+
+		<div class="main_content">
+			<h2 class="main_content_title">后台首页</h2>
+			<div class="user_tongji">
+				<span class="div_title">用户数量统计</span>
+				<div class="user_table">
+					
+				</div>
+			<div class="user_hometown_tongji">
+				<span class="div_title">用户地域统计</span>
+				<div class="user_hometown_table"></div>
+			</div>
+
+		</div>
+	</div>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/highcharts.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/index.js"></script>
     </body>
 </html>
